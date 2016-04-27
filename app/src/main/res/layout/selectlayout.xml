@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_wordselect_layout"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_dispathline"
+        android:src="@drawable/game_line"/>
+    <com.example.lyw.imoocmusic.com.lyw.imoocmusic.ui.MyGridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/id_mygridview"
+        android:gravity="center"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:numColumns="8"
+        >
+
+    </com.example.lyw.imoocmusic.com.lyw.imoocmusic.ui.MyGridView>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_floatlyaout_linerlay_fram1">
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/id_floatlyaout_linerlay_fram_imgbut1"
+                android:background="@drawable/delet_imooc_icon"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/id_floatlyaout_linerlay_fram_img1"
+                android:background="@drawable/game_coin_icon"
+                android:layout_gravity="bottom"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/id_floatlyaout_linerlay_fram_tvt"
+                android:text="@integer/pay_delet_word"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_floatlyaout_linerlay_fram2">
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/id_floatlyaout_linerlay_fram_imgbut2"
+                android:background="@drawable/tip_imooc_icon"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/id_floatlyaout_linerlay_fram_img2"
+                android:background="@drawable/game_coin_icon"
+                android:layout_gravity="bottom"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/id_floatlyaout_linerlay_fram_tvt2"
+                android:text="@integer/pay_tip_anwser"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/id_floatlyaout_linerlay_share"
+        android:background="@drawable/share_imooc_icon"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+       />
+<FrameLayout
+    android:id="@+id/id_floatlyaout_framelayout"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/id_famelayout_img"
+        android:src="@drawable/game_level_title"
+        android:layout_below="@+id/id_floatlyaout_framelayout"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_framelayout_tvt"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="1"/>
+
+</FrameLayout>
+
+
+
+
+</RelativeLayout>
